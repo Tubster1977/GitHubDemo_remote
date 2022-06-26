@@ -17,6 +17,8 @@
 		8432C7F4286895D000CE57C5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8432C7CA286895CE00CE57C5 /* MainView.swift */; };
 		8432C7F5286895D000CE57C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8432C7CB286895D000CE57C5 /* Assets.xcassets */; };
 		8432C7F6286895D000CE57C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8432C7CB286895D000CE57C5 /* Assets.xcassets */; };
+		8432C80628689E5700CE57C5 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8432C80528689E5700CE57C5 /* SecondView.swift */; };
+		8432C80728689E5700CE57C5 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8432C80528689E5700CE57C5 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		8432C7E9286895D000CE57C5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8432C7ED286895D000CE57C5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		8432C7EF286895D000CE57C5 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		8432C80528689E5700CE57C5 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				8432C7C9286895CE00CE57C5 /* GitHubDemoApp.swift */,
 				8432C7CA286895CE00CE57C5 /* MainView.swift */,
+				8432C80528689E5700CE57C5 /* SecondView.swift */,
 				8432C7CB286895D000CE57C5 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8432C80628689E5700CE57C5 /* SecondView.swift in Sources */,
 				8432C7F3286895D000CE57C5 /* MainView.swift in Sources */,
 				8432C7F1286895D000CE57C5 /* GitHubDemoApp.swift in Sources */,
 			);
@@ -308,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8432C80728689E5700CE57C5 /* SecondView.swift in Sources */,
 				8432C7F4286895D000CE57C5 /* MainView.swift in Sources */,
 				8432C7F2286895D000CE57C5 /* GitHubDemoApp.swift in Sources */,
 			);
